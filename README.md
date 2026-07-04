@@ -2,7 +2,7 @@
 
 Welcome to my Python Projects repository.
 
-This repository contains Python projects I created while learning programming and cybersecurity. Each project helps me improve my coding skills and explore different Python concepts.
+This repository contains Python projects I created while learning programming and cybersecurity.
 
 ---
 
@@ -10,19 +10,14 @@ This repository contains Python projects I created while learning programming an
 
 ### 🧮 Python Calculator
 
-A simple calculator built with Python and Tkinter.
+A simple desktop calculator built with **Python** and **Tkinter**.
 
-**Features**
+**What it does**
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Percentage
-- Positive/Negative (+/-)
-- Decimal numbers
+- Performs addition, subtraction, multiplication, and division
+- Supports percentages, decimal numbers, and positive/negative values
 
-Run the calculator:
+**Run the calculator**
 
 ```bash
 python3 calculatoe.py
@@ -32,19 +27,15 @@ python3 calculatoe.py
 
 ### 🔒 File Integrity Monitor (FIM)
 
-A simple File Integrity Monitor built with Python and CustomTkinter.
+A simple File Integrity Monitor built with **Python** and **CustomTkinter**.
 
-It creates a SHA-256 hash for each file in a folder and lets you know if any files have been changed, deleted, or added.
+**What it does**
 
-**Features**
+- Creates SHA-256 hashes of files
+- Detects modified, deleted, and newly added files
+- Helps monitor the integrity of a selected folder
 
-- Monitor any folder
-- Detect modified files
-- Detect deleted files
-- Detect new files
-- Easy-to-use graphical interface
-
-Run the program:
+**Run the File Integrity Monitor**
 
 ```bash
 python3 FIM.py
@@ -52,15 +43,30 @@ python3 FIM.py
 
 ---
 
-## 🛠 Requirements
+## 🚀 Installation
 
-- Python 3.8 or later
-- pip
+Clone the repository:
 
-Install the required package:
+```bash
+git clone https://github.com/williamchijioke67-cmd/William-emeka.git
+```
+
+Go to the project folder:
+
+```bash
+cd William-emeka
+```
+
+Install the required package for the File Integrity Monitor:
 
 ```bash
 pip install customtkinter
+```
+
+> **Note:** Tkinter is included with most Python installations. If it's missing on Linux, install it with:
+
+```bash
+sudo apt install python3-tk
 ```
 
 ---
